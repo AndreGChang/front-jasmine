@@ -13,6 +13,4 @@ export const roleguardGuard: CanActivateFn = (route, state) => {
   }else{
     return true;
   }
-
-  return true;
 };

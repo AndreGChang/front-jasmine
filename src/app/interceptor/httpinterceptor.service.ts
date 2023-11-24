@@ -26,7 +26,6 @@ export class HttpinterceptorService implements HttpInterceptor{
     } else {
       return next.handle(req);
     }
-
   }
 }
 
